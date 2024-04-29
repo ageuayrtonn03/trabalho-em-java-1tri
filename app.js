@@ -1,12 +1,12 @@
 alert('Descubra a porra do número secreto');
-let numeroSecreto = parseInt(Math.random()*10+1) ;
+let numeroSecreto = parseInt(Math.random()*100+1) ;
 console.log(numeroSecreto)
-let chute = prompt('Escolha um número de 1 a 10');
+let chute = prompt('Escolha um número de 1 a 100');
 let tentativas = 1;
 
 //enquanto o chute não for igual o número secreto
 while (chute != numeroSecreto)
-{chute = prompt('Escolha um número de 1 a 10');
+{chute = prompt('Escolha um número de 1 a 100');
 //se o chute for igual ao número secreto
 if (chute == numeroSecreto){
  break;
